@@ -14,11 +14,6 @@ Hi there 👋. I’m Abhishek Jaiswal, a skilled and results-driven Web Develope
 * 💻 CSS
 * 💻 PHP
 
-
-## **I have created a PHP Startup File using MVC Sturcture**
-I made this project just for fun, it allows you to create nice and simple PHP MVC Structured files that you can copy/paste and use in your Project.
-
-
 Watch my Resume - https://0virusdetect.github.io/0virus/
 
 
