@@ -1,7 +1,5 @@
-Hi there 👋. I’m Abhishek Jaiswal, a skilled and results-driven Web Developer with a strong background in Web development and a passion for crafting high-quality Websites. With a keen eye for quality and a deep understanding of the Web ecosystem, I build solutions that are not only functional but also delightful.
-
-## **About me**
-
+## **Hi there 👋, My Name is Abhishek**
+I'm a software engineer who is passionate about making contributing to open-source more approachable, creating technology to elevate people, and building community.
 
 ## **Get in Touch☕** 
 * Gmail
