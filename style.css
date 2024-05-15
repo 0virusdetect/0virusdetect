@@ -22,9 +22,6 @@ margin: 0;
 padding: 0;
 }
 
-ul {
-list-style-type: none;
-}
 
 a {
 text-decoration: none;
@@ -49,6 +46,7 @@ font-optical-sizing: auto;
 font-weight: 200;
 font-style: normal;
 font-size: 13px;
+color: black;
 }
 /* main body styling end */
 
@@ -90,7 +88,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 }
-
+.mynav ul{
+list-style-type: none;
+}
 .mynav ul li {
 margin: 15px 0px;
 }
@@ -198,7 +198,7 @@ text-align: end;
 }
 .profile_img img {
 height: 100px;
-width:100px;
+width: 100px;
 border-radius: 50%;
 object-fit: cover;
 }
@@ -237,12 +237,17 @@ hr{margin: 5px 0;}
 .profile_achivements p:nth-child(3){font-size:13px;margin:0 0 25px 0;text-align: justify;}
 
 .profile_quality p:nth-child(1){font-size:23px;}
-.profile_quality p:nth-child(n + 3):nth-child(-n + 7){font-size:13px;margin:0 0 25px 0;text-align: justify;}
+.profile_quality ul {
+    margin-left: 25px;
+}
+.profile_quality ul li{
+    text-align: justify;
+}
 
 .profile_project p:nth-child(1){font-size:23px;}
-.profile_project p:nth-child(3n){font-size:18px;margin:8px 0;}
-.profile_project p:nth-child(3n + 4){font-size:13px;margin:4px 0;}
-.profile_project p:nth-child(3n + 5){color:rgb(231, 32, 32);font-size:13px;margin:2px 0;}
+.profile_project p:nth-child(3n){font-size:18px;margin:20px 0 2px 0;font-weight: 300;}
+.profile_project p:nth-child(3n + 4){font-size:13px;margin:1px 0;text-align: justify;}
+.profile_project p:nth-child(3n + 5){font-size:13px;margin:2px 0;}
 
 .profile_declaration p:nth-child(1){font-size:23px;}
 .profile_declaration p:nth-child(3){font-size:13px;margin:0 0 25px 0;text-align: justify;}
@@ -255,7 +260,7 @@ text-align: center;
 }
 .profile_content {
 margin-top: 20px!important;
-  text-align: center;
+text-align: center;
 }
 }
 /* home styling end */
