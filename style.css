@@ -198,6 +198,7 @@ text-align: end;
 }
 .profile_img img {
 height: 100px;
+width:100px;
 border-radius: 50%;
 object-fit: cover;
 }
