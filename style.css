@@ -59,14 +59,14 @@ display: none;
 #check:not(:checked) + label:before {
 font-family: "FontAwesome";
 content: "\f0c9";
-font-size: 14px;
+font-size: 15px;
 color:#666666;
 }
 
 #check:checked + label:before {
 font-family: "FontAwesome";
 content: "\f00d";
-font-size: 14px;
+font-size: 15px;
 color:#666666;
 }
 
@@ -135,13 +135,14 @@ transform: translateX(5px);
 .checkBox {
 display: block;
 position: fixed;
-bottom: 0%;
-margin: 20px 10px;
+bottom: 20px;
+right: 20px;
+height: 50px;
+width: 50px;
 border: 1px solid #666666;
 background-color: whitesmoke;
 border-radius: 50%;
 z-index: 100;
-padding: 12px 16px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -166,7 +167,7 @@ transition: all ease 0.9s;
 .post {
 padding: 2px 8px;
 left: calc(100% + 10px);
-top: -7px;
+top: -6px;
 opacity: 1;
 visibility: visible;
 }
