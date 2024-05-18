@@ -183,31 +183,6 @@
 </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-const check = document.getElementById('check');
-const navbar = document.getElementById('mynav-bar');
-
-check.addEventListener("change", function(event) {
-if (check.checked) {
-navbar.style.left = "0%";
-navbar.setAttribute('aria-hidden', 'false');
-} else {
-navbar.style.left = "-100%";
-navbar.setAttribute('aria-hidden', 'true');
-}
-});
-
-document.addEventListener("click", function(event) {
-// Check if the click is outside the navbar and the checkbox
-if (!navbar.contains(event.target) && event.target !== check && event.target !== document.querySelector('label[for="check"]')) {
-navbar.style.left = "-100%";
-check.checked = false;
-navbar.setAttribute('aria-hidden', 'true');
-}
-});
-});
-</script>
+<script src="script.js"></script>
 </body>
 </html>
