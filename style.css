@@ -32,21 +32,13 @@ input:focus {
 outline: none;
 }
 
-.red {
-border: 1px solid red;
-}
-
-.black {
-border: 1px solid black;
-}
 body{
-background-color: whitesmoke;
 font-family: "Inter", sans-serif;
 font-optical-sizing: auto;
 font-weight: 200;
 font-style: normal;
 font-size: 13px;
-color: #5a5757;
+color: #666666;
 }
 /* main body styling end */
 
@@ -68,18 +60,18 @@ display: none;
 font-family: "FontAwesome";
 content: "\f0c9";
 font-size: 14px;
-color:#5a5757;
+color:#666666;
 }
 
 #check:checked + label:before {
 font-family: "FontAwesome";
 content: "\f00d";
 font-size: 14px;
-color:#5a5757;
+color:#666666;
 }
 
 .mynav {
-border-right: 2px solid #8d8a8a;
+border-right: 1px solid #666666;
 height: 100%;
 width: 60px;
 position: fixed;
@@ -102,10 +94,10 @@ text-decoration: none;
 position: relative;
 }
 .mynav ul li a i {
-font-size: 18px;
+font-size: 17px;
 height: 20px;
 width: 26px;
-color: #5a5757;
+color: #666666;
 }
 .home,
 .person,
@@ -113,10 +105,11 @@ color: #5a5757;
 .contact,
 .followers,
 .post {
-background-color:#5a5757;
+background-color:#666666;
 padding: 3px 8px;
 border-radius: 6px;
 color: white;
+font-weight: 400;
 position: absolute;
 left: calc(100% + 4px);
 top: -6px;
@@ -144,7 +137,7 @@ display: block;
 position: fixed;
 bottom: 0%;
 margin: 20px 10px;
-border: 2px solid #5a5757;
+border: 1px solid #666666;
 background-color: whitesmoke;
 border-radius: 50%;
 z-index: 100;
@@ -155,7 +148,7 @@ align-items: center;
 }
 
 .mynav {
-border-right: 2px solid #5a5757;
+border-right: 1px solid #666666;
 background-color: white;
 width: 200px;
 align-items: start;
@@ -171,11 +164,7 @@ transition: all ease 0.9s;
 .contact,
 .followers,
 .post {
-background-color: #5a5757;
 padding: 2px 8px;
-border-radius: 6px;
-color: white;
-position: absolute;
 left: calc(100% + 10px);
 top: -7px;
 opacity: 1;
@@ -206,7 +195,7 @@ object-fit: cover;
 position: relative;
 right: 35px;
 top: 40px;
-background-color: black;
+background-color: #666666;
 color: white;
 padding: 5px;
 border-radius: 50%;
@@ -245,9 +234,9 @@ hr{margin: 5px 0;}
 }
 
 .profile_project p:nth-child(1){font-size:23px;}
-.profile_project p:nth-child(3n){font-size:18px;margin:20px 0 2px 0;font-weight: 300;}
+.profile_project p:nth-child(3n){font-size:17px;margin:20px 0 2px 0;font-weight: 300;}
 .profile_project p:nth-child(3n + 4){font-size:13px;margin:1px 0;text-align: justify;}
-.profile_project p:nth-child(3n + 5){font-size:13px;margin:2px 0;}
+.profile_project p:nth-child(3n + 5){font-size:12px;margin:2px 0;}
 
 .profile_declaration p:nth-child(1){font-size:23px;}
 .profile_declaration p:nth-child(3){font-size:13px;margin:0 0 25px 0;text-align: justify;}
