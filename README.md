@@ -12,6 +12,6 @@ I'm a software engineer who is passionate about making contributing to open-sour
 * 💻 CSS
 * 💻 PHP
 
-Watch my Resume - https://0virusdetect.github.io/abhishekjaiswal866/
+Watch my Resume - https://abhishekjaiswal866.github.io/abhishekjaiswal866/
 
 
