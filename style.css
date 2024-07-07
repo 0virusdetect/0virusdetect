@@ -213,7 +213,7 @@ hr{margin: 5px 0;}
 .profile_content a:before {
     font-family: "FontAwesome";
     content: "\f019";
-    color:black;
+    color:#666666;
     float: left;
     margin-right: 6px;
     transition: all 0.4s ease;
