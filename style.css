@@ -229,6 +229,30 @@ hr{margin: 5px 0;}
 .contact_me .row{
     align-items: center;
     padding: 10px 0;
+} 
+.icon_gmail:before{
+    font-family: "FontAwesome";
+    content: "\f0e0";
+    color:#666666;
+    float: left;
+    margin-right: 6px;
+    transition: all 0.4s ease;
+}
+.icon_github:before{
+    font-family: "FontAwesome";
+    content: "\f09b";
+    color:#666666;
+    float: left;
+    margin-right: 6px;
+    transition: all 0.4s ease;
+}
+.icon_linkedin:before{
+    font-family: "FontAwesome";
+    content: "\f08c";
+    color:#666666;
+    float: left;
+    margin-right: 6px;
+    transition: all 0.4s ease;
 }
 .profile_about p:nth-child(1){font-size:23px;}
 .profile_about p:nth-child(3){font-size:13px;margin:0 0 25px 0;text-align: justify;}
@@ -276,6 +300,9 @@ text-align: center;
 .profile_content {
 margin-top: 20px!important;
 text-align: center;
+}
+.icon_gmail , .icon_github , .icon_linkedin {
+margin-bottom: 8px;
 }
 }
 /* home styling end */
