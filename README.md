@@ -12,6 +12,6 @@ I'm a software engineer who is passionate about making contributing to open-sour
 * 💻 CSS
 * 💻 PHP
 
-Watch my Resume - https://zerovirusdetect.github.io/0virusdetect/
+Watch my Resume - https://zerovirusdetect.github.io/zerovirusdetect/
 
 
